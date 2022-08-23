@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838EFB2428B4B1D400FC44FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838EFB2328B4B1D400FC44FF /* AppDelegate.swift */; };
+		838EFB2828B4B1D400FC44FF /* ImportMnemonicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838EFB2728B4B1D400FC44FF /* ImportMnemonicViewController.swift */; };
+		838EFB2B28B4B1D400FC44FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB2928B4B1D400FC44FF /* Main.storyboard */; };
+		838EFB2D28B4B1D500FC44FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB2C28B4B1D500FC44FF /* Assets.xcassets */; };
+		838EFB3028B4B1D500FC44FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB2E28B4B1D500FC44FF /* LaunchScreen.storyboard */; };
+		838EFB3B28B4B1D600FC44FF /* BonoEthSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838EFB3A28B4B1D600FC44FF /* BonoEthSDKTests.swift */; };
+		838EFB4528B4B1D600FC44FF /* BonoEthSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838EFB4428B4B1D600FC44FF /* BonoEthSDKUITests.swift */; };
+		838EFB4728B4B1D600FC44FF /* BonoEthSDKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838EFB4628B4B1D600FC44FF /* BonoEthSDKUITestsLaunchTests.swift */; };
+		838EFB5528B4B4A400FC44FF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 838EFB5428B4B4A400FC44FF /* Alamofire */; };
+		838EFB5828B4B4C800FC44FF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 838EFB5728B4B4C800FC44FF /* SwiftyJSON */; };
+		838EFB5A28B4B4EF00FC44FF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838EFB5928B4B4EF00FC44FF /* NetworkManager.swift */; };
+		838EFB5D28B4B83F00FC44FF /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 838EFB5C28B4B83F00FC44FF /* CryptoSwift */; };
+		838EFB6028B4B8DB00FC44FF /* APIListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838EFB5F28B4B8DB00FC44FF /* APIListViewController.swift */; };
+		838EFB6228B4BDC600FC44FF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838EFB6128B4BDC600FC44FF /* Utils.swift */; };
+		838EFB6E28B4C2F700FC44FF /* 3.c76db575.chunk.js in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6828B4C2F700FC44FF /* 3.c76db575.chunk.js */; };
+		838EFB6F28B4C2F700FC44FF /* 2.6514eb7e.chunk.js.LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6928B4C2F700FC44FF /* 2.6514eb7e.chunk.js.LICENSE.txt */; };
+		838EFB7028B4C2F700FC44FF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6A28B4C2F700FC44FF /* index.html */; };
+		838EFB7128B4C2F700FC44FF /* runtime-main.bafa742a.js in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6B28B4C2F700FC44FF /* runtime-main.bafa742a.js */; };
+		838EFB7228B4C2F700FC44FF /* main.03baad20.chunk.js in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6C28B4C2F700FC44FF /* main.03baad20.chunk.js */; };
+		838EFB7328B4C2F700FC44FF /* 2.6514eb7e.chunk.js in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6D28B4C2F700FC44FF /* 2.6514eb7e.chunk.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		838EFB3728B4B1D600FC44FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838EFB1828B4B1D400FC44FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838EFB1F28B4B1D400FC44FF;
+			remoteInfo = BonoEthSDK;
+		};
+		838EFB4128B4B1D600FC44FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 838EFB1828B4B1D400FC44FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 838EFB1F28B4B1D400FC44FF;
+			remoteInfo = BonoEthSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		838EFB2028B4B1D400FC44FF /* BonoEthSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonoEthSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		838EFB2328B4B1D400FC44FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		838EFB2728B4B1D400FC44FF /* ImportMnemonicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportMnemonicViewController.swift; sourceTree = "<group>"; };
+		838EFB2A28B4B1D400FC44FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		838EFB2C28B4B1D500FC44FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		838EFB2F28B4B1D500FC44FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		838EFB3128B4B1D500FC44FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838EFB3628B4B1D600FC44FF /* BonoEthSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonoEthSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838EFB3A28B4B1D600FC44FF /* BonoEthSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonoEthSDKTests.swift; sourceTree = "<group>"; };
+		838EFB4028B4B1D600FC44FF /* BonoEthSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonoEthSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838EFB4428B4B1D600FC44FF /* BonoEthSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonoEthSDKUITests.swift; sourceTree = "<group>"; };
+		838EFB4628B4B1D600FC44FF /* BonoEthSDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonoEthSDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		838EFB5928B4B4EF00FC44FF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		838EFB5F28B4B8DB00FC44FF /* APIListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIListViewController.swift; sourceTree = "<group>"; };
+		838EFB6128B4BDC600FC44FF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		838EFB6828B4C2F700FC44FF /* 3.c76db575.chunk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 3.c76db575.chunk.js; sourceTree = "<group>"; };
+		838EFB6928B4C2F700FC44FF /* 2.6514eb7e.chunk.js.LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.6514eb7e.chunk.js.LICENSE.txt; sourceTree = "<group>"; };
+		838EFB6A28B4C2F700FC44FF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		838EFB6B28B4C2F700FC44FF /* runtime-main.bafa742a.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "runtime-main.bafa742a.js"; sourceTree = "<group>"; };
+		838EFB6C28B4C2F700FC44FF /* main.03baad20.chunk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.03baad20.chunk.js; sourceTree = "<group>"; };
+		838EFB6D28B4C2F700FC44FF /* 2.6514eb7e.chunk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 2.6514eb7e.chunk.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838EFB1D28B4B1D400FC44FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838EFB5828B4B4C800FC44FF /* SwiftyJSON in Frameworks */,
+				838EFB5528B4B4A400FC44FF /* Alamofire in Frameworks */,
+				838EFB5D28B4B83F00FC44FF /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838EFB3328B4B1D600FC44FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838EFB3D28B4B1D600FC44FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		838EFB1728B4B1D400FC44FF = {
+			isa = PBXGroup;
+			children = (
+				838EFB2228B4B1D400FC44FF /* BonoEthSDK */,
+				838EFB3928B4B1D600FC44FF /* BonoEthSDKTests */,
+				838EFB4328B4B1D600FC44FF /* BonoEthSDKUITests */,
+				838EFB2128B4B1D400FC44FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		838EFB2128B4B1D400FC44FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838EFB2028B4B1D400FC44FF /* BonoEthSDK.app */,
+				838EFB3628B4B1D600FC44FF /* BonoEthSDKTests.xctest */,
+				838EFB4028B4B1D600FC44FF /* BonoEthSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838EFB2228B4B1D400FC44FF /* BonoEthSDK */ = {
+			isa = PBXGroup;
+			children = (
+				838EFB6728B4C2F700FC44FF /* web3js */,
+				838EFB2E28B4B1D500FC44FF /* LaunchScreen.storyboard */,
+				838EFB2C28B4B1D500FC44FF /* Assets.xcassets */,
+				838EFB3128B4B1D500FC44FF /* Info.plist */,
+				838EFB2928B4B1D400FC44FF /* Main.storyboard */,
+				838EFB2328B4B1D400FC44FF /* AppDelegate.swift */,
+				838EFB5928B4B4EF00FC44FF /* NetworkManager.swift */,
+				838EFB6128B4BDC600FC44FF /* Utils.swift */,
+				838EFB5E28B4B84B00FC44FF /* ViewControllers */,
+			);
+			path = BonoEthSDK;
+			sourceTree = "<group>";
+		};
+		838EFB3928B4B1D600FC44FF /* BonoEthSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				838EFB3A28B4B1D600FC44FF /* BonoEthSDKTests.swift */,
+			);
+			path = BonoEthSDKTests;
+			sourceTree = "<group>";
+		};
+		838EFB4328B4B1D600FC44FF /* BonoEthSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				838EFB4428B4B1D600FC44FF /* BonoEthSDKUITests.swift */,
+				838EFB4628B4B1D600FC44FF /* BonoEthSDKUITestsLaunchTests.swift */,
+			);
+			path = BonoEthSDKUITests;
+			sourceTree = "<group>";
+		};
+		838EFB5E28B4B84B00FC44FF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				838EFB2728B4B1D400FC44FF /* ImportMnemonicViewController.swift */,
+				838EFB5F28B4B8DB00FC44FF /* APIListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		838EFB6728B4C2F700FC44FF /* web3js */ = {
+			isa = PBXGroup;
+			children = (
+				838EFB6828B4C2F700FC44FF /* 3.c76db575.chunk.js */,
+				838EFB6928B4C2F700FC44FF /* 2.6514eb7e.chunk.js.LICENSE.txt */,
+				838EFB6A28B4C2F700FC44FF /* index.html */,
+				838EFB6B28B4C2F700FC44FF /* runtime-main.bafa742a.js */,
+				838EFB6C28B4C2F700FC44FF /* main.03baad20.chunk.js */,
+				838EFB6D28B4C2F700FC44FF /* 2.6514eb7e.chunk.js */,
+			);
+			name = web3js;
+			path = libs/web3js;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838EFB1F28B4B1D400FC44FF /* BonoEthSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838EFB4A28B4B1D600FC44FF /* Build configuration list for PBXNativeTarget "BonoEthSDK" */;
+			buildPhases = (
+				838EFB1C28B4B1D400FC44FF /* Sources */,
+				838EFB1D28B4B1D400FC44FF /* Frameworks */,
+				838EFB1E28B4B1D400FC44FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonoEthSDK;
+			packageProductDependencies = (
+				838EFB5428B4B4A400FC44FF /* Alamofire */,
+				838EFB5728B4B4C800FC44FF /* SwiftyJSON */,
+				838EFB5C28B4B83F00FC44FF /* CryptoSwift */,
+			);
+			productName = BonoEthSDK;
+			productReference = 838EFB2028B4B1D400FC44FF /* BonoEthSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		838EFB3528B4B1D600FC44FF /* BonoEthSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838EFB4D28B4B1D600FC44FF /* Build configuration list for PBXNativeTarget "BonoEthSDKTests" */;
+			buildPhases = (
+				838EFB3228B4B1D600FC44FF /* Sources */,
+				838EFB3328B4B1D600FC44FF /* Frameworks */,
+				838EFB3428B4B1D600FC44FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838EFB3828B4B1D600FC44FF /* PBXTargetDependency */,
+			);
+			name = BonoEthSDKTests;
+			productName = BonoEthSDKTests;
+			productReference = 838EFB3628B4B1D600FC44FF /* BonoEthSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		838EFB3F28B4B1D600FC44FF /* BonoEthSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838EFB5028B4B1D600FC44FF /* Build configuration list for PBXNativeTarget "BonoEthSDKUITests" */;
+			buildPhases = (
+				838EFB3C28B4B1D600FC44FF /* Sources */,
+				838EFB3D28B4B1D600FC44FF /* Frameworks */,
+				838EFB3E28B4B1D600FC44FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				838EFB4228B4B1D600FC44FF /* PBXTargetDependency */,
+			);
+			name = BonoEthSDKUITests;
+			productName = BonoEthSDKUITests;
+			productReference = 838EFB4028B4B1D600FC44FF /* BonoEthSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838EFB1828B4B1D400FC44FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					838EFB1F28B4B1D400FC44FF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					838EFB3528B4B1D600FC44FF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 838EFB1F28B4B1D400FC44FF;
+					};
+					838EFB3F28B4B1D600FC44FF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 838EFB1F28B4B1D400FC44FF;
+					};
+				};
+			};
+			buildConfigurationList = 838EFB1B28B4B1D400FC44FF /* Build configuration list for PBXProject "BonoEthSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 838EFB1728B4B1D400FC44FF;
+			packageReferences = (
+				838EFB5328B4B4A400FC44FF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				838EFB5628B4B4C800FC44FF /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				838EFB5B28B4B83F00FC44FF /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
+			productRefGroup = 838EFB2128B4B1D400FC44FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838EFB1F28B4B1D400FC44FF /* BonoEthSDK */,
+				838EFB3528B4B1D600FC44FF /* BonoEthSDKTests */,
+				838EFB3F28B4B1D600FC44FF /* BonoEthSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838EFB1E28B4B1D400FC44FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838EFB7228B4C2F700FC44FF /* main.03baad20.chunk.js in Resources */,
+				838EFB3028B4B1D500FC44FF /* LaunchScreen.storyboard in Resources */,
+				838EFB7328B4C2F700FC44FF /* 2.6514eb7e.chunk.js in Resources */,
+				838EFB7128B4C2F700FC44FF /* runtime-main.bafa742a.js in Resources */,
+				838EFB6F28B4C2F700FC44FF /* 2.6514eb7e.chunk.js.LICENSE.txt in Resources */,
+				838EFB6E28B4C2F700FC44FF /* 3.c76db575.chunk.js in Resources */,
+				838EFB7028B4C2F700FC44FF /* index.html in Resources */,
+				838EFB2D28B4B1D500FC44FF /* Assets.xcassets in Resources */,
+				838EFB2B28B4B1D400FC44FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838EFB3428B4B1D600FC44FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838EFB3E28B4B1D600FC44FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838EFB1C28B4B1D400FC44FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838EFB6228B4BDC600FC44FF /* Utils.swift in Sources */,
+				838EFB5A28B4B4EF00FC44FF /* NetworkManager.swift in Sources */,
+				838EFB2828B4B1D400FC44FF /* ImportMnemonicViewController.swift in Sources */,
+				838EFB2428B4B1D400FC44FF /* AppDelegate.swift in Sources */,
+				838EFB6028B4B8DB00FC44FF /* APIListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838EFB3228B4B1D600FC44FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838EFB3B28B4B1D600FC44FF /* BonoEthSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838EFB3C28B4B1D600FC44FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838EFB4528B4B1D600FC44FF /* BonoEthSDKUITests.swift in Sources */,
+				838EFB4728B4B1D600FC44FF /* BonoEthSDKUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		838EFB3828B4B1D600FC44FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838EFB1F28B4B1D400FC44FF /* BonoEthSDK */;
+			targetProxy = 838EFB3728B4B1D600FC44FF /* PBXContainerItemProxy */;
+		};
+		838EFB4228B4B1D600FC44FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 838EFB1F28B4B1D400FC44FF /* BonoEthSDK */;
+			targetProxy = 838EFB4128B4B1D600FC44FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		838EFB2928B4B1D400FC44FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838EFB2A28B4B1D400FC44FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		838EFB2E28B4B1D500FC44FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838EFB2F28B4B1D500FC44FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838EFB4828B4B1D600FC44FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		838EFB4928B4B1D600FC44FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838EFB4B28B4B1D600FC44FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QRG925UFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonoEthSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coinus.app.BonoEthSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		838EFB4C28B4B1D600FC44FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QRG925UFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BonoEthSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coinus.app.BonoEthSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		838EFB4E28B4B1D600FC44FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QRG925UFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coinus.app.BonoEthSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonoEthSDK.app/BonoEthSDK";
+			};
+			name = Debug;
+		};
+		838EFB4F28B4B1D600FC44FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QRG925UFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coinus.app.BonoEthSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonoEthSDK.app/BonoEthSDK";
+			};
+			name = Release;
+		};
+		838EFB5128B4B1D600FC44FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QRG925UFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coinus.app.BonoEthSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BonoEthSDK;
+			};
+			name = Debug;
+		};
+		838EFB5228B4B1D600FC44FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QRG925UFT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coinus.app.BonoEthSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BonoEthSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838EFB1B28B4B1D400FC44FF /* Build configuration list for PBXProject "BonoEthSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838EFB4828B4B1D600FC44FF /* Debug */,
+				838EFB4928B4B1D600FC44FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838EFB4A28B4B1D600FC44FF /* Build configuration list for PBXNativeTarget "BonoEthSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838EFB4B28B4B1D600FC44FF /* Debug */,
+				838EFB4C28B4B1D600FC44FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838EFB4D28B4B1D600FC44FF /* Build configuration list for PBXNativeTarget "BonoEthSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838EFB4E28B4B1D600FC44FF /* Debug */,
+				838EFB4F28B4B1D600FC44FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838EFB5028B4B1D600FC44FF /* Build configuration list for PBXNativeTarget "BonoEthSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838EFB5128B4B1D600FC44FF /* Debug */,
+				838EFB5228B4B1D600FC44FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		838EFB5328B4B4A400FC44FF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		838EFB5628B4B4C800FC44FF /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		838EFB5B28B4B83F00FC44FF /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		838EFB5428B4B4A400FC44FF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 838EFB5328B4B4A400FC44FF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		838EFB5728B4B4C800FC44FF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 838EFB5628B4B4C800FC44FF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		838EFB5C28B4B83F00FC44FF /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 838EFB5B28B4B83F00FC44FF /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 838EFB1828B4B1D400FC44FF /* Project object */;
+}
