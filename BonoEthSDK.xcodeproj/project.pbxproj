@@ -27,6 +27,7 @@
 		838EFB7128B4C2F700FC44FF /* runtime-main.bafa742a.js in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6B28B4C2F700FC44FF /* runtime-main.bafa742a.js */; };
 		838EFB7228B4C2F700FC44FF /* main.03baad20.chunk.js in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6C28B4C2F700FC44FF /* main.03baad20.chunk.js */; };
 		838EFB7328B4C2F700FC44FF /* 2.6514eb7e.chunk.js in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB6D28B4C2F700FC44FF /* 2.6514eb7e.chunk.js */; };
+		838EFB7528B4C71400FC44FF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 838EFB7428B4C71400FC44FF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		838EFB6B28B4C2F700FC44FF /* runtime-main.bafa742a.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "runtime-main.bafa742a.js"; sourceTree = "<group>"; };
 		838EFB6C28B4C2F700FC44FF /* main.03baad20.chunk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.03baad20.chunk.js; sourceTree = "<group>"; };
 		838EFB6D28B4C2F700FC44FF /* 2.6514eb7e.chunk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 2.6514eb7e.chunk.js; sourceTree = "<group>"; };
+		838EFB7428B4C71400FC44FF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		838EFB1728B4B1D400FC44FF = {
 			isa = PBXGroup;
 			children = (
+				838EFB7428B4C71400FC44FF /* README.md */,
 				838EFB2228B4B1D400FC44FF /* BonoEthSDK */,
 				838EFB3928B4B1D600FC44FF /* BonoEthSDKTests */,
 				838EFB4328B4B1D600FC44FF /* BonoEthSDKUITests */,
@@ -290,6 +293,7 @@
 			files = (
 				838EFB7228B4C2F700FC44FF /* main.03baad20.chunk.js in Resources */,
 				838EFB3028B4B1D500FC44FF /* LaunchScreen.storyboard in Resources */,
+				838EFB7528B4C71400FC44FF /* README.md in Resources */,
 				838EFB7328B4C2F700FC44FF /* 2.6514eb7e.chunk.js in Resources */,
 				838EFB7128B4C2F700FC44FF /* runtime-main.bafa742a.js in Resources */,
 				838EFB6F28B4C2F700FC44FF /* 2.6514eb7e.chunk.js.LICENSE.txt in Resources */,
